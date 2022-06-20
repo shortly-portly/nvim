@@ -1,0 +1,14 @@
+
+{
+  "name": "heex",
+  "version": "1.0.0",
+  "description": "Heex code snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "heex",
+        "path": "./heex.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "helloworld": {
+    "prefix": "%t",
+    "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END",
+    "description": "Elixir Hello World"
+  },
+  "wibble": {
+    "prefix": "wibble",
+    "body":"def $1($2) do \n $0 \n end",
+    "description": "Elixir Wibble"
+  }
+}

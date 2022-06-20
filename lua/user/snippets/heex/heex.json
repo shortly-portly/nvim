@@ -1,0 +1,8 @@
+
+{
+  "helloworld": {
+    "prefix": "%h",
+    "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END",
+    "description": "Elixir Hello World"
+  }
+}
