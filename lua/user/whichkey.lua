@@ -113,7 +113,7 @@ local mappings = {
 
   E = {
     name = "Elixir",
-    f = {"<cmd>!mix format<cr>", "Format"}
+    f = {"<cmd>w  | !mix format<cr>", "Format"}
   },
 
   p = {
@@ -201,6 +201,7 @@ local mappings = {
     h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
     v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
   },
+
 }
 
 which_key.setup(setup)
