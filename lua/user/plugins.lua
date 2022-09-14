@@ -48,7 +48,7 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
-  use "akinsho/bufferline.nvim"
+  use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
   use "moll/vim-bbye"
   use "nvim-lualine/lualine.nvim"
   use "akinsho/toggleterm.nvim"
@@ -95,7 +95,7 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
 
   -- nvim window
---  use 'https://gitlab.com/yorickpeterse/nvim-window.git'
+  use 'https://gitlab.com/yorickpeterse/nvim-window.git'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
