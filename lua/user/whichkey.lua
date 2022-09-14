@@ -110,7 +110,7 @@ local mappings = {
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>Telescope projects<cr>", "Projects" },
-
+  ["W"] = { "<cmd>only<CR>", "Full Screen"},
   E = {
     name = "Elixir",
     f = {"<cmd>w  | !mix format<cr>", "Format"}
