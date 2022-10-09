@@ -97,6 +97,9 @@ return packer.startup(function(use)
   -- nvim window
   use 'https://gitlab.com/yorickpeterse/nvim-window.git'
 
+  -- leap.nvim 
+  use "https://github.com/ggandor/leap.nvim.git"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
